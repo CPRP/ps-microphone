@@ -34,5 +34,21 @@ Config.MicrophoneZones = {
                 range = 50.0 -- range for the voice
             }
         }
+    },
+    [3] = {
+        name = "mazebankarena", 
+        coords = vector3(-329.26, -1975.04, 23.03),
+        length = 3.4,
+        width = 3.6,
+        spawnProp = false, -- if set to true, it will let you spawn the prop at location
+        data = {
+            debugPoly = Config.Showzone,
+            heading = 321.83,
+            minZ = 21.86,
+            maxZ = 25.86,
+            data = {
+                range = 75.0 -- range for the voice
+            }
+        }
     }
 }
