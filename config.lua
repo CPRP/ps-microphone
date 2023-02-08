@@ -50,5 +50,21 @@ Config.MicrophoneZones = {
                 range = 75.0 -- range for the voice
             }
         }
+    },
+    [4] = {
+        name = "sandydragstrip", 
+        coords = vector3(1044.98, 3080.28, 43.31),
+        length = 3.4,
+        width = 3.6,
+        spawnProp = false, -- if set to true, it will let you spawn the prop at location
+        data = {
+            debugPoly = Config.Showzone,
+            heading = 285.87,
+            minZ = 41.86,
+            maxZ = 45.86,
+            data = {
+                range = 50.0 -- range for the voice
+            }
+        }
     }
 }
